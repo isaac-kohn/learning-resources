@@ -1,0 +1,98 @@
+.app {
+  font-family: "myriad-pro", "inter-variable", sans-serif;
+  background-color: #dcdcdc;
+}
+
+.filterToolDiv {
+  background-color: #ffffff;
+  padding: 3vh;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 16vh;
+  box-shadow: 0vh 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.filterContainer {
+  background-color: #dcdcdc;
+  margin: 2vh;
+  padding: 1vh;
+  border-radius: 5vh;
+  border: inset;
+}
+
+.filter {
+  display: inline;
+  font-size: 2vh;
+  margin: 0.5vh;
+  padding: 0.5vh;
+  padding-left: 1vh;
+  border-radius: 5vh;
+  border: outset;
+}
+
+.filterRemoveButton {
+  font-size: 2vh;
+  border-radius: 5vh;
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+  cursor: pointer;
+  margin: 0.5vh;
+}
+
+.reset {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  font-family: "myriad-pro", "inter-variable", sans-serif;
+  font-size: 3vh;
+  font-weight: lighter;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pageContainer {
+  border-color: #dcdcdc;
+  background-color: #dcdcdc;
+}
+
+.pageRangeBar {
+  background-color: #ffffff;
+  padding: 3vh;
+  text-align: center;
+}
+
+.resourceTile {
+  background-color: #ffffff;
+  border-radius: 6vh;
+  margin: 4vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-top: 0.04vh;
+  padding-bottom: 2vh;
+  font-family: "myriad-pro", "inter-variable", sans-serif;
+}
+
+.scrollButton {
+  background-color: #dcdcdc;
+  border-color: #dcdcdc;
+  font-weight: bold;
+  font-size: 2vh;
+  border-radius: 25%;
+  text-align: center;
+  margin: 1vh;
+  padding-right: 1vh;
+  padding-left: 1vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  cursor: pointer;
+}
